@@ -9,6 +9,9 @@ let nextId = 1
 app.get('/health', (req, res) => {
   res.json({ status: 'healthy', uptime: process.uptime() })
 })
+app.get('/helo',(req,res)=>{
+  res.json({status:"healthy" , message:"hello yogesh how r u yes!its working ur git pipeline is working" })
+})
 
 app.get('/todos', (req, res) => {
   res.json(todos)
