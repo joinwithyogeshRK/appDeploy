@@ -1,5 +1,1 @@
-echo "node_modules/" >> .gitignore
-git rm -r --cached node_modules
-git add .gitignore
-git commit -m "remove node_modules"
-git pushnode_modules/
+node_modules/
